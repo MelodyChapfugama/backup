@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<script>
+		function Person(name, age, gender){
+		  this.name = name;
+		  this.age = age;
+		  this.gender = gender;
+
+		  this.greeting = function(){
+		    document.write("hi guys, my name is " + name + "and i am" + age + " year old " + gender );
+		  };
+		}
+
+		var Patricia = new Person("Patricia", 26, female);
+		var Belinda = new Person("Belinda", 23, female);
+		var Melody = new Person("Melody", 24, female);
+		var Joy = new Person("Joy", 23, female);
+		var Gracious = new Person("Gracious", 24, female);
+		var Shalom = new Person("Shalom", 21, female);	
+		var Rumbi = new Person("Rumbi", 24, female);
+		var Yvonne = new Person("Yvonne", 24, female);
+		var Marshal = new Person("Marshal", 23, male);
+
+		Patricia.greeting();
+		Belinda.greeting();
+		Melody.greeting();
+		Joy.greeting();
+		Gracious.greeting();
+		Shalom.greeting();
+		Rumbi.greeting();
+		Yvonne.greeting();
+		Marshal.greeting();
+
+	
+
+</script>
+
+</body>
+</html>
